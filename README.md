@@ -35,7 +35,7 @@ location ~ \.(s3|php)$ {
 }
 ```
 
-### Postgres
+### PostgreSQL
 O banco de dados utilizado é o PostgreSQL, a versão é >= 11.9.
 O banco encontra-se no formato .dmp e para restaura-lo você terá que executar um pg_restore  e o formato .sql caso preferir para restaura-lo precisará executar o comando psql.
 
